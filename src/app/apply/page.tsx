@@ -102,14 +102,12 @@ export default function ApplyPage() {
 
   return (
     <main className="min-h-screen py-8 px-4 bg-gradient-to-br from-gray-50 via-blue-50/30 to-indigo-50/30 relative">
-      {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 translate-y-1/2 -translate-x-1/2" />
       </div>
 
       <div className="max-w-2xl mx-auto relative z-10">
-        {/* Header */}
         <div className="mb-6 animate-fade-in-up">
           <Link
             href="/"
@@ -124,13 +122,11 @@ export default function ApplyPage() {
           </h1>
         </div>
 
-        {/* Main card */}
         <div className="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-6 md:p-8 border border-white/20 animate-fade-in-up stagger-1">
           <StepTracker currentStep={currentStep} />
           <div className="mt-6">{renderStep()}</div>
         </div>
 
-        {/* Footer */}
         <p className="text-center text-sm text-gray-500 mt-8 animate-fade-in stagger-2">
           Need help? Contact support at{' '}
           <a href="mailto:support@example.com" className="text-blue-600 hover:underline">

@@ -4,7 +4,6 @@ import { CreditCard, ArrowRight, Shield, Zap, Award } from 'lucide-react';
 export default function Home() {
   return (
     <main className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 relative overflow-hidden">
-      {/* Animated background shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-float stagger-2" />
@@ -13,7 +12,6 @@ export default function Home() {
 
       <div className="max-w-lg w-full text-center relative z-10">
         <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-8 md:p-10 animate-fade-in-up border border-white/20">
-          {/* Animated icon */}
           <div className="mx-auto w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg animate-float">
             <CreditCard className="w-10 h-10 text-white" />
           </div>
@@ -25,10 +23,9 @@ export default function Home() {
           </h1>
 
           <p className="text-gray-600 mb-8 text-lg animate-fade-in-up stagger-2">
-            Apply for your new credit card in minutes. Fast, secure, and easy.
+            Complete your application in a few simple steps
           </p>
 
-          {/* Feature pills */}
           <div className="flex flex-wrap justify-center gap-3 mb-8 animate-fade-in-up stagger-3">
             <div className="flex items-center gap-2 bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm font-medium">
               <Zap className="w-4 h-4" />
@@ -53,7 +50,7 @@ export default function Home() {
           </Link>
 
           <p className="mt-6 text-sm text-gray-500 animate-fade-in stagger-5">
-            No hidden fees. Cancel anytime.
+            Takes about 5 minutes
           </p>
         </div>
 
