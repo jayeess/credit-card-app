@@ -1,0 +1,41 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@example.com",
+    "phone": "0512345678",
+    "employmentType": "salaried",
+    "companyName": "Test Corp",
+    "salary": "15000",
+    "nationalId": {
+      "name": "id.pdf",
+      "size": 1234,
+      "type": "application/pdf"
+    },
+    "id": "CC-MIFMBXY2-D1P3",
+    "submittedAt": "2025-11-26T06:23:13.562Z",
+    "status": "pending"
+  },
+  {
+    "firstName": "sai",
+    "lastName": "sda",
+    "email": "f20220047@dubai.bits-pilani.ac.in",
+    "phone": "0565958279",
+    "employmentType": "self_employed",
+    "companyName": "sparkxi",
+    "salary": "10000",
+    "salaryCertificate": {
+      "name": "2022A7PS0047U -  Macha Venkata Sai Jayesh - Dubizzle.pdf",
+      "size": 83223,
+      "type": "application/pdf"
+    },
+    "nationalId": {
+      "name": "2022A7PS0047U - Macha Venkata Sai Jayesh - Spark XI.pdf",
+      "size": 83336,
+      "type": "application/pdf"
+    },
+    "id": "CC-MIFMIZV1-JY9X",
+    "submittedAt": "2025-11-26T06:28:42.637Z",
+    "status": "pending"
+  }
+]
